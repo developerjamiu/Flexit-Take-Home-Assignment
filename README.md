@@ -34,5 +34,9 @@ The project was implemented with a custom architecture similar to MVVM where
 - The API call depends on an app-id (for calling the dummy api) which should be gitignored It is present in lib/src/services/base/api_credentials.dart 
 - Use the CachedNetworkImage package/utility to cache network images
 
-## Build
+### Build
 - App build can be found in the github release tab
+
+### Screenshots
+![users_view](https://user-images.githubusercontent.com/50176100/138571670-9a6c5c19-2a1c-4ae7-915b-cd24c4b44bb8.jpeg)
+![user_details_view](https://user-images.githubusercontent.com/50176100/138571671-bcce9039-91f2-491c-9cc5-6b9fe1c1c556.jpeg)
