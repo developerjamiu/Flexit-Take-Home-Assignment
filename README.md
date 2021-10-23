@@ -20,18 +20,19 @@ This project is the implementation of the Flexit Flutter Take Home Project.
 
 The project was implemented with a custom architecture similar to MVVM where
 - ViewModels are known as notifiers
+- State Management been used is Riverpod (provider's older brother :))
 - Class Dependencies are managed using the Riverpod Providers
 - There are no usage of special providers such as StreamProvider, StateProviders, ChangeNotifiers are used for simplicity
 - It uses the classic repository approach
+- Features are grouped in the features folder i.e. this app has only on folder
 - Most dependencies are abstracted as services
 - Contextless navigation and snackbar display are used
 - Only services are tested
-- Features are grouped in the features folder i.e. this app has only on folder
 
 ### Things to improve on
 
 - The API call depends on an app-id (for calling the dummy api) which should be gitignored It is present in lib/src/services/base/api_credentials.dart 
-- Current project structure is based on the size of the project, It changes as project grows
+- Use the CachedNetworkImage package/utility to cache network images
 
 ## Build
 - App build can be found in the github release tab
