@@ -1,3 +1,4 @@
+import 'package:get_storage/get_storage.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 import 'get_storage_service.dart';
@@ -11,5 +12,5 @@ abstract class IKeyValueStorageService {
 }
 
 final keyValueStorageService = Provider<IKeyValueStorageService>(
-  (ref) => GetStorageService(),
+  (ref) => GetStorageService(storage: GetStorage()),
 );
