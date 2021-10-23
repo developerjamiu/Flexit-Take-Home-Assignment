@@ -6,6 +6,10 @@ Flexit Flutter Take Home Project
 
 This project is the implementation of the Flexit Flutter Take Home Project.
 
+### Build
+
+- App build can be found in the github release tab here: https://github.com/developerjamiu/Flexit-Take-Home-Assignment/releases/tag/v1.0.0 . Click the app-release to download
+
 ### Requirements
 
 - Create an **Mobile App(iOS/Android) displaying a list items and their detail** when clicking on it
@@ -33,9 +37,6 @@ The project was implemented with a custom architecture similar to MVVM where
 
 - The API call depends on an app-id (for calling the dummy api) which should be gitignored It is present in lib/src/services/base/api_credentials.dart 
 - Use the CachedNetworkImage package/utility to cache network images
-
-### Build
-- App build can be found in the github release tab
 
 ### Screenshots
 ![users_view](https://user-images.githubusercontent.com/50176100/138571670-9a6c5c19-2a1c-4ae7-915b-cd24c4b44bb8.jpeg)
