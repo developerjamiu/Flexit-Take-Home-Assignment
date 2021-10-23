@@ -32,3 +32,6 @@ The project was implemented with a custom architecture similar to MVVM where
 
 - The API call depends on an app-id (for calling the dummy api) which should be gitignored It is present in lib/src/services/base/api_credentials.dart 
 - Current project structure is based on the size of the project, It changes as project grows
+
+## Build
+- App build can be found in the github release tab
